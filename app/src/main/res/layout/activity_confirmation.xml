@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.naveen.sampledemo.ConfirmationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_name"
+        android:textAlignment="center"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tex_number"
+        android:layout_margin="10sp"
+        android:layout_below="@id/text_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_CVV"
+        android:layout_margin="10sp"
+        android:layout_below="@+id/tex_number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Date"
+        android:layout_margin="10sp"
+        android:layout_below="@+id/text_CVV"/>
+    <Button
+        android:id="@+id/button_gotBACK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Here !!"
+        android:layout_below="@id/text_Date"
+        />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleDemo</string>
+    <string name="textView_text">We are using TEXTVIEW to display text.</string>
+</resources>
