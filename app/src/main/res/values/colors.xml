@@ -5,4 +5,7 @@
     <color name="colorAccent">#ec0a57</color>
     <color name="textViewColor">#FF22DAB2</color>
     <color name="textViewBackgroundColor">#FF3A4E4A</color>
+    <color name="layoutBack">#8effffff</color>
+    <color name="bn">#FF304983</color>
+
 </resources>
